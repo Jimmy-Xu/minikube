@@ -180,7 +180,6 @@ const IsMinikubeChildProcess = "IS_MINIKUBE_CHILD_PROCESS"
 const DriverNone = "none"
 const FileScheme = "file"
 
-
 func GetKubeadmCachedImages(kubernetesVersionStr string) []string {
 
 	var images = []string{

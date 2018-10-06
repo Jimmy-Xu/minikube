@@ -20,6 +20,7 @@ import "fmt"
 
 var imageMap = map[string]string{
 	"k8s.gcr.io/pause-amd64:3.1":                    "registry.cn-hangzhou.aliyuncs.com/google_containers/pause-amd64:3.1",
+	"k8s.gcr.io/pause:3.1":                          "registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.1",
 	"k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.8": "registry.cn-hangzhou.aliyuncs.com/google_containers/k8s-dns-dnsmasq-nanny-amd64:1.14.8",
 	"k8s.gcr.io/k8s-dns-sidecar-amd64:1.14.8":       "registry.cn-hangzhou.aliyuncs.com/google_containers/k8s-dns-sidecar-amd64:1.14.8",
 	"k8s.gcr.io/k8s-dns-kube-dns-amd64:1.14.8":      "registry.cn-hangzhou.aliyuncs.com/google_containers/k8s-dns-kube-dns-amd64:1.14.8",

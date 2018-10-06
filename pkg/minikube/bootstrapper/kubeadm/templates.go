@@ -59,6 +59,7 @@ bootstrapTokens:
   - signing
   - authentication
 kind: InitConfiguration
+imageRepository: registry.cn-hangzhou.aliyuncs.com/google_containers
 nodeRegistration:
   criSocket: /var/run/dockershim.sock
   name: {{.NodeName}}
@@ -78,6 +79,7 @@ etcd:
     dataDir: {{.EtcdDataDir}}
 kind: ClusterConfiguration
 kubernetesVersion: {{.KubernetesVersion}}
+imageRepository: registry.cn-hangzhou.aliyuncs.com/google_containers
 networking:
   dnsDomain: cluster.local
   podSubnet: ""
